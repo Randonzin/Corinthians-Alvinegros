@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Autistas Alvinegros</title>
+
+    <style>
+       @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+       @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rowdies:wght@300;400;700&display=swap');
+
+        body {
+          font-family: "Permanent Marker", system-ui;
+          font-weight: 400;
+          font-style: normal;
+            margin: 0;
+            padding: 0;
+            background-color: black; 
+            color: white; 
+
+          text-align: center;
+        }
+
+        header {
+            padding: 30px 0;
+            background-color: white; 
+        }
+
+        nav ul {
+            padding: 0;
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black; 
+        }
+
+        nav ul li a:hover {
+            color: white; 
+            background-color: black;
+            padding: 10px;
+        }
+
+        .titulo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+
+        h2 {
+          font-family: "Permanent Marker", system-ui;
+          font-weight: 400;
+          font-style: normal;
+            font-size: 2rem;
+        }
+
+        a:hover {
+            box-shadow: 0 0 0 4px;
+            background-color: black;
+            transition: 1.5s all;
+            color:white;
+        }
+
+        p {
+          font-family: "Permanent Marker", system-ui;
+          font-weight: 400;
+          font-style: normal;
+            font-size: 1.5rem;
+            padding: 20px;
+        }
+
+        form {
+            margin: 20px auto;
+            max-width: 600px; 
+            text-align: left; 
+        }
+
+        label {
+            display: block;
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            width: 100%; 
+            padding: 10px; 
+            margin-bottom: 15px; 
+            border: 1px solid #ccc; 
+            border-radius: 5px; 
+            background-color: #fff; 
+            color: black; 
+        }
+
+        button {
+            background-color: black; 
+            color: white;
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+            font-size: 1rem; 
+        }
+
+        button:hover {
+            background-color: white; 
+            color: black; 
+            transition: 0.3s; 
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="introducao.html">PÁGINA PRINCIPAL</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+                <li><a href="conclusao.html">CONCLUSÃO</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="titulo">Formulário </h1>
+        <h2>Nos diga a sua opinão sobre o nosso site</h2>
+        <p>Preencha o formulário abaixo com suas opiniões ou alguma sugestão para sobre o nosso site </p>
+
+        <form action="#" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="sugestao">Opinião/Sugestão:</label>
+            <textarea id="sugestao" name="sugestao" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+</body>
+</html>

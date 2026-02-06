@@ -1,0 +1,147 @@
+body, h1{
+
+    margin: 0;
+    padding: 0;
+    color: #fcfcfcf3;
+    font-size: 2rem;
+    text-align: center;
+    background-size: cover;
+    text-decoration: none;
+    font-style: normal;
+}
+
+header{
+    padding: 10px 0;
+}
+
+ul {
+
+    margin: 0;
+    padding: 0;
+    color: rgb(252, 252, 252);
+    font-size: 2rem;
+    text-align: center;
+    background-size: cover;
+    font-family: Verdana;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+
+}
+
+.cabecalho{
+   width: 80%;
+   max-width: 1200px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+
+#titulo {
+   font-size: 30px;
+   font-weight: bold; 
+   text-decoration: none;
+   color: white;
+}
+#titulo a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul {
+   list-style: none;
+   display: flex;
+   text-decoration: none;
+}
+
+nav li {
+   margin-left: 130px;
+   list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    list-style: none;
+    color: white;
+    
+}
+
+nav ul li a:hover{
+    box-shadow: 0 0 0 4px;
+    background-color: white;
+    transition: 1.5s all;
+    color:black;
+    border-radius: 10px;
+}
+
+p {
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+body {
+  
+    background-color: rgb(153, 153, 153);;
+}
+.comunidade{
+    position: absolute;
+    top: 164%;
+    background-color: black;
+
+}
+.comunidade a{
+    color: white;
+    text-decoration: none;
+}
+.comunidade a:hover{
+    text-decoration: underline;
+}
+.carrosel{
+    width: 84rem;
+    height: 20rem;
+    position: absolute;
+    display:flex;
+    overflow:auto;
+    scroll-snap-type:proximity;
+    top: 116%
+    
+    
+}
+.carrosel img{
+    position: sticky;
+    left: 0;
+    flex-shrink: 0;
+    object-fit: cover;
+    scroll-behavior: smooth;
+
+}
+.mural {
+    position: absolute;
+    top: 105%;
+    left: 43%;
+    
+    
+}
+.mural h1{
+    font-size: 60px;
+}
+.cabecalho h1 a:hover{
+    box-shadow: 0 0 0 4px;
+    background-color: white;
+    color: #000;
+    transition: 1.5s all;
+    border-radius: 20px;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+  

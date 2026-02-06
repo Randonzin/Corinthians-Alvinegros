@@ -1,0 +1,130 @@
+
+  
+body, h2{
+
+    margin: 0;
+    padding: 0;
+    color: rgb(252, 252, 252);
+    font-size: 1rem;
+    text-align: center;
+    background-size: 97rem;
+    background-position: center;
+    font-family: Verdana;
+}
+
+header{
+    padding: 30px 0;
+    background-color: #000;
+}
+
+ul {
+
+    margin: 0;
+    padding: 0;
+    color: rgb(252, 252, 252);
+    font-size: 2rem;
+    text-align: center;
+    background-size: cover;
+    font-family: Verdana;
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+
+}
+
+.cabecalho{
+   width: 80%;
+   max-width: 1200px;
+   display: inline;
+    font-style: normal;
+
+
+}
+
+
+.titulo {
+   font-size: 35x; 
+   background-color: white;
+   color: black;
+   font-family: "Permanent Marker", system-ui;
+          font-weight: 400;
+          font-style: normal;
+   
+}
+
+nav ul {
+   list-style: none;
+   
+}
+
+nav li {
+   list-style: none;
+   display: inline;
+   margin-right: 120px;
+   margin-left: 100px;
+}
+
+nav ul li a{
+    font-size: 25px;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-style: normal; 
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+nav ul li a:hover{
+    box-shadow: 0 0 0 4px;
+    background-color: white;
+    transition: 1.5s all;
+    color:black;
+    
+
+}
+
+p {
+    font-family: 'Georgia', serif;
+    font-size: 2rem;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+body {
+  
+    background-color: rgb(153, 153, 153);;
+}
+.contatos ul{
+    background-color:white;
+}
+.contatos ul li{
+   display: inline;
+   font-size: 20px;
+   font-weight: bold;
+   margin-right:130px;
+   font-family: "Permanent Marker", cursive;
+
+}
+.contatos ul li a{
+    text-decoration: none;
+    color: black;
+}
+.contatos ul li a:hover {
+    text-decoration: underline;
+    
+
+}
+ img{
+  transition: all 0.3s ease-in-out; 
+}
+img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba (0,0,0, 0.5);
+    opacity: 0.5
+
+}
+
+
